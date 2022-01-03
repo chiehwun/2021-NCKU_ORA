@@ -29,7 +29,7 @@ Forward kinematics performs the transformation from **joint space** to **cartesi
 
 ### What is Metaheuristic Algorithm?
 
-In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information or limited computation capacity. [[[1]]]
+In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information or limited computation capacity. [[1]]
 
 In order to formulate the problem, there exists a function <img src="http://latex.codecogs.com/gif.latex?f(\bf{x})" /> called **Fitness Function** which is a type of objective function to guide the simulations towards optimal design solution.
 
