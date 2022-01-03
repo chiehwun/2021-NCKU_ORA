@@ -29,13 +29,14 @@ Forward kinematics performs the transformation from **joint space** to **cartesi
 
 ### What is Metaheuristic Algorithm?
 
-In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information or limited computation capacity. [[1]]
+In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information or limited computation capacity. [[1]](#1-httpsenwikipediaorgwikimetaheuristic)
 
 In order to formulate the problem, there exists a function <img src="http://latex.codecogs.com/gif.latex?f(\bf{x})" /> called **Fitness Function** which is a type of objective function to guide the simulations towards optimal design solution.
 
 #### Particle Swarm Optimization (PSO)
 
-Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [2]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [3]
+Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [[2]]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [3]
+[[2]]: (#2-j-kennedy-and-r-eberhart-particle-swarm-optimization--proceedings-of-icnn95---international-conference-on-neural-networks-1995-pp-1942-1948-vol4)
 
 **Math Expression for PSO**
 
@@ -97,4 +98,6 @@ where
 
 ###### [5] Y. Cheng, C. Li, S. Li, Z. Li, "Motion Planning of Redundant Manipulator With Variable Joint Velocity Limit Based on Beetle Antennae Search Algorithm, " in _IEEE Access_, vol. 8, pp. 138788-138799, 2020
 
-[[1]](#1-httpsenwikipediaorgwikimetaheuristic)
+[[3]](#3-httpsmachinelearningmasterycoma-gentle-introduction-to-particle-swarm-optimization)
+[[4]](#4-x-jiang-s-li-bas-beetle-antennae-search-algorithm-for-optimization-problems--in-arxiv-conference-2017)
+[[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-of-redundant-manipulator-with-variable-joint-velocity-limit-based-on-beetle-antennae-search-algorithm--in-ieee-access-vol-8-pp-138788-138799-2020)
