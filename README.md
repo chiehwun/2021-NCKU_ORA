@@ -1,28 +1,44 @@
 # Path Planning For Manipulator Based On Metaheuristic Algorithm
 
+## Outline
+
+- [Introduction](#introduction)
+  - [What is Motion Planning?](#what-is-motion-planning?)
+    - [Manipulator Forward Kinematics](#manipulator-forward-kinematics)
+  - [What is Metaheuristic Algorithm?](what-is-metaheuristic-algorithm?)
+    - [:bird: Particle Swarm Optimization (PSO)](<#particle-swarm-optimization-(PSO)>)
+    - [:beetle: Beetle Antennae Search (BAS)](<#beetle-antennae-search-(BAS)>)
+- [Experiment](#experiment)
+- [Result](#result)
+- [Conclusion](#conclusion)
+- [Reference](#reference)
+
 ## Introduction
 
-In this project, we compared two metaheuristic algorithm for path planning and made a brief conclusion and comments for this project.
+In this project, we compared two metaheuristic algorithms for path planning and made a brief conclusion and comments for our experiment.
 
-### What is Path Planning?
+### What is Motion Planning?
 
-Path planning is commonly used in robotics and manufacturing,
+![](https://control.com/uploads/articles/image18.jpg)
+Motion planning is commonly used in robotics and manufacturing. For example, industrial robots and CNC machine tools have multiple positionong axes that must move in a coordinated fashion along precisely defined paths to accomplish their program tasks.
 
-#### Manipulator Forward Kinematics
+#### Forward Kinematics
 
-#### Manipulator Inverse Kinematics
-
-##### Singularity Issues
+Forward kinematics performs the transformation from **joint space** to **cartesian space**.
+Watch this video for more information.
+https://youtu.be/rA9tm0gTln8
 
 ### What is Metaheuristic Algorithm?
 
-In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information or limited computation capacity.[5]
+In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information or limited computation capacity.[1]
 
-#### Particle Swarm Optimization (PSO)
+In order to formulate the problem, there exists a function <img src="http://latex.codecogs.com/gif.latex?f(\bf{x})" /> called **Fitness Function** which is a type of objective function to guide the simulations towards optimal design solution.
 
-Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [1]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [4]
+#### :bird:Particle Swarm Optimization (PSO)
 
-**Math Expression**
+Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [2]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [4]
+
+**Math Expression for PSO**
 
 - <img src="http://latex.codecogs.com/gif.latex?{{{\bf{v}}_{\bf{i}}} = w{{\bf{v}}_{\bf{i}}} + {c_1}{r_1}\left( {{\bf{pbes}}{{\bf{t}}_{\bf{i}}} - {{\bf{x}}_{\bf{i}}}} \right) + {c_2}{r_2}\left( {{\bf{gbest}} - {{\bf{x}}_{\bf{i}}}} \right)}" />
 - <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_{\bf{i}}} = {{\bf{x}}_{\bf{i}}} + {{\bf{v}}_{\bf{i}}}" />
@@ -41,14 +57,11 @@ where
 - <img src="https://render.githubusercontent.com/render/math?math=w"> is inertia weight which determines how much should the particle keep on with its previous velocity.
 - <img src="https://render.githubusercontent.com/render/math?math={\bf{pbes}}{{\bf{t}}_{\bf{i}}}"> and <img src="https://render.githubusercontent.com/render/math?math={\bf{gbest}}"> are the positions that gives the best cost function value ever explored by particle i and the whole partlcles respectively.
 
-- Advantages: converge quickly
-- Disadvantages: easily trapped into local minimum
-
-#### Beetle Antennae Search (BAS)
+#### :beetle: Beetle Antennae Search (BAS)
 
 This idea was inspired by th nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side.
 
-**Math Expression**
+**Math Expression for BAS**
 
 - <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_r} = {{\bf{x}}^t} + {d^t}{\bf{b}}">
 - <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_l} = {{\bf{x}}^t} - {d^t}{\bf{b}}">
@@ -71,14 +84,16 @@ where
 
 ## Result
 
+## Conclusion
+
 ## Reference
 
-[1] J. Kennedy and R. Eberhart, "Particle swarm optimization, " Proceedings of ICNN'95 - _International Conference on Neural_ Networks, 1995, pp. 1942-1948 vol.4
+[5] J. Kennedy and R. Eberhart, "Particle swarm optimization, " Proceedings of ICNN'95 - _International Conference on Neural_ Networks, 1995, pp. 1942-1948 vol.4
 
-[2] X. Jiang, S. Li, "BAS: Beetle Antennae Search Algorithm for Optimization Problems, " in arXiv conference, 2017
+[4] X. Jiang, S. Li, "BAS: Beetle Antennae Search Algorithm for Optimization Problems, " in arXiv conference, 2017
 
 [3] Y. Cheng, C. Li, S. Li, Z. Li, "Motion Planning of Redundant Manipulator With Variable Joint Velocity Limit Based on Beetle Antennae Search Algorithm, " in _IEEE Access_, vol. 8, pp. 138788-138799, 2020
 
-[4] https://machinelearningmastery.com/a-gentle-introduction-to-particle-swarm-optimization/
+[2] https://machinelearningmastery.com/a-gentle-introduction-to-particle-swarm-optimization/
 
-[5] https://en.wikipedia.org/wiki/Metaheuristic
+[1] https://en.wikipedia.org/wiki/Metaheuristic
