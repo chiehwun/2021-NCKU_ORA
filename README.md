@@ -3,11 +3,11 @@
 ## Outline
 
 - [Introduction](#introduction)
-  - [What is Motion Planning?](#what-is-motion-planning?)
+  - [What is Motion Planning?](#what-is-motion-planning)
     - [Manipulator Forward Kinematics](#manipulator-forward-kinematics)
-  - [What is Metaheuristic Algorithm?](what-is-metaheuristic-algorithm?)
-    - [:bird: Particle Swarm Optimization (PSO)](<#particle-swarm-optimization-(PSO)>)
-    - [:beetle: Beetle Antennae Search (BAS)](<#beetle-antennae-search-(BAS)>)
+  - [What is Metaheuristic Algorithm?](what-is-metaheuristic-algorithm)
+    - [Particle Swarm Optimization (PSO)](#particle-swarm-optimization)
+    - [Beetle Antennae Search (BAS)](#beetle-antennae-search)
 - [Experiment](#experiment)
 - [Result](#result)
 - [Conclusion](#conclusion)
@@ -34,7 +34,7 @@ In computer science and mathematical optimization, a metaheuristic is a higher-l
 
 In order to formulate the problem, there exists a function <img src="http://latex.codecogs.com/gif.latex?f(\bf{x})" /> called **Fitness Function** which is a type of objective function to guide the simulations towards optimal design solution.
 
-#### :bird:Particle Swarm Optimization (PSO)
+#### Particle Swarm Optimization (PSO)
 
 Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [2]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [4]
 
@@ -57,7 +57,7 @@ where
 - <img src="https://render.githubusercontent.com/render/math?math=w"> is inertia weight which determines how much should the particle keep on with its previous velocity.
 - <img src="https://render.githubusercontent.com/render/math?math={\bf{pbes}}{{\bf{t}}_{\bf{i}}}"> and <img src="https://render.githubusercontent.com/render/math?math={\bf{gbest}}"> are the positions that gives the best cost function value ever explored by particle i and the whole partlcles respectively.
 
-#### :beetle: Beetle Antennae Search (BAS)
+#### Beetle Antennae Search (BAS)
 
 This idea was inspired by th nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side.
 
