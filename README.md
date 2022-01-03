@@ -22,7 +22,7 @@ In computer science and mathematical optimization, a metaheuristic is a higher-l
 
 Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [1]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [4]
 
-Math Expression
+**Math Expression**
 
 - <img src="http://latex.codecogs.com/gif.latex?{{{\bf{v}}_{\bf{i}}} = w{{\bf{v}}_{\bf{i}}} + {c_1}{r_1}\left( {{\bf{pbes}}{{\bf{t}}_{\bf{i}}} - {{\bf{x}}_{\bf{i}}}} \right) + {c_2}{r_2}\left( {{\bf{gbest}} - {{\bf{x}}_{\bf{i}}}} \right)}" />
 - <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_{\bf{i}}} = {{\bf{x}}_{\bf{i}}} + {{\bf{v}}_{\bf{i}}}" />
@@ -48,20 +48,24 @@ where
 
 This idea was inspired by th nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side.
 
-- Math Expression
+**Math Expression**
 
-  $$
-   \left\{ \begin{array}{l}
+- <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_r} = {{\bf{x}}^t} + {d^t}{\bf{b}}">
+- <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_l} = {{\bf{x}}^t} - {d^t}{\bf{b}}">
+- <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}^t} = {{\bf{x}}^{t - 1}} - {\delta ^t}{\bf{b}}sign\left( {f\left( {{{\bf{x}}_r}} \right) - f\left( {{{\bf{x}}_l}} \right)} \right)">
+
+  <!-- $$
+    \left\{ \begin{array}{l}
   {{\bf{x}}_r} = {{\bf{x}}^t} + {d^t}{\bf{b}}\\
   {{\bf{x}}_l} = {{\bf{x}}^t} - {d^t}{\bf{b}}\\
   {{\bf{x}}^t} = {{\bf{x}}^{t - 1}} - {\delta ^t}{\bf{b}}sign\left( {f\left( {{{\bf{x}}_r}} \right) - f\left( {{{\bf{x}}_l}} \right)} \right)
   \end{array} \right.
-  $$
+  $$ -->
 
-  where
+where
 
-  - $d^t$ is the sensing length of antennae corresponding to the exploit ability
-  - $\bf{b}$ is a random unit vector
+- $d^t$ is the sensing length of antennae corresponding to the exploit ability
+- $\bf{b}$ is a random unit vector
 
 ## Experiment
 
