@@ -22,11 +22,10 @@ In computer science and mathematical optimization, a metaheuristic is a higher-l
 
 Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [1]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [4]
 
-- Math Expression
+Math Expression
 
-  <img src="https://render.githubusercontent.com/render/math?math=w{{\bf{v}}_{\bf{i}}} + {c_1}{r_1}\left( {{\bf{pbes}}{{\bf{t}}_{\bf{i}}} - {{\bf{x}}_{\bf{i}}}} \right) + {c_2}{r_2}\left( {{\bf{gbest}} - {{\bf{x}}_{\bf{i}}}} \right)}" />
-
-  <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_{\bf{i}}} = {{\bf{x}}_{\bf{i}}} + {{\bf{v}}_{\bf{i}}}" />
+- <img src="http://latex.codecogs.com/gif.latex?{{{\bf{v}}_{\bf{i}}} = w{{\bf{v}}_{\bf{i}}} + {c_1}{r_1}\left( {{\bf{pbes}}{{\bf{t}}_{\bf{i}}} - {{\bf{x}}_{\bf{i}}}} \right) + {c_2}{r_2}\left( {{\bf{gbest}} - {{\bf{x}}_{\bf{i}}}} \right)}" />
+- <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_{\bf{i}}} = {{\bf{x}}_{\bf{i}}} + {{\bf{v}}_{\bf{i}}}" />
 
   <!-- $$
   \left\{ \begin{array}{l}
@@ -35,12 +34,12 @@ Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [1]. As
   \end{array} \right.
   $$ -->
 
-  where
+where
 
-  - <img src="https://render.githubusercontent.com/render/math?math=c_1"> and <img src="https://render.githubusercontent.com/render/math?math=c_2"> are parameters to the PSO algorithm
-  - <img src="https://render.githubusercontent.com/render/math?math=r_1"> and <img src="https://render.githubusercontent.com/render/math?math=r_2"> are random numbers between 0 and 1.
-  - <img src="https://render.githubusercontent.com/render/math?math=w"> is inertia weight which determines how much should the particle keep on with its previous velocity.
-  - <img src="https://render.githubusercontent.com/render/math?math={\bf{pbes}}{{\bf{t}}_{\bf{i}}}"> and <img src="https://render.githubusercontent.com/render/math?math={\bf{gbest}}"> are the positions that gives the best cost function value ever explored by particle i and the whole partlcles respectively.
+- <img src="https://render.githubusercontent.com/render/math?math=c_1"> and <img src="https://render.githubusercontent.com/render/math?math=c_2"> are parameters to the PSO algorithm
+- <img src="https://render.githubusercontent.com/render/math?math=r_1"> and <img src="https://render.githubusercontent.com/render/math?math=r_2"> are random numbers between 0 and 1.
+- <img src="https://render.githubusercontent.com/render/math?math=w"> is inertia weight which determines how much should the particle keep on with its previous velocity.
+- <img src="https://render.githubusercontent.com/render/math?math={\bf{pbes}}{{\bf{t}}_{\bf{i}}}"> and <img src="https://render.githubusercontent.com/render/math?math={\bf{gbest}}"> are the positions that gives the best cost function value ever explored by particle i and the whole partlcles respectively.
 
 - Advantages: converge quickly
 - Disadvantages: easily trapped into local minimum
