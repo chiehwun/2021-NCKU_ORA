@@ -1,5 +1,7 @@
 # Path Planning For Manipulator Based On Metaheuristic Algorithm
 
+:target:
+
 ## Outline
 
 - [Introduction](#introduction)
@@ -15,7 +17,7 @@
 
 ## Introduction
 
-In this project, we compared two metaheuristic algorithms for path planning and made a brief conclusion and comments for our experiment.
+In this project, we compared two metaheuristic algorithms for path planning and made a brief comment for our experiment.
 
 ### What is Motion Planning?
 
@@ -35,8 +37,7 @@ In order to formulate the problem, there exists a function <img src="http://late
 
 #### Particle Swarm Optimization (PSO)
 
-Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [[2]]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [3]
-[[2]]: (#2-j-kennedy-and-r-eberhart-particle-swarm-optimization--proceedings-of-icnn95---international-conference-on-neural-networks-1995-pp-1942-1948-vol4)
+Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [[2]](#2-j-kennedy-and-r-eberhart-particle-swarm-optimization--proceedings-of-icnn95---international-conference-on-neural-networks-1995-pp-1942-1948-vol4). As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [[3]](#3-httpsmachinelearningmasterycoma-gentle-introduction-to-particle-swarm-optimization)
 
 **Math Expression for PSO**
 
@@ -59,7 +60,7 @@ where
 
 #### Beetle Antennae Search (BAS)
 
-This idea was inspired by th nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side.[4]
+This idea was inspired by th nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side. [[4]](#4-x-jiang-s-li-bas-beetle-antennae-search-algorithm-for-optimization-problems--in-arxiv-conference-2017)
 
 **Math Expression for BAS**
 
@@ -82,9 +83,9 @@ where
 
 ## Experiment
 
-## Result
+We reproduce some part of [[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-of-redundant-manipulator-with-variable-joint-velocity-limit-based-on-beetle-antennae-search-algorithm--in-ieee-access-vol-8-pp-138788-138799-2020).
 
-## Conclusion
+## Result
 
 ## Reference
 
@@ -97,7 +98,3 @@ where
 ###### [4] X. Jiang, S. Li, "BAS: Beetle Antennae Search Algorithm for Optimization Problems, " in arXiv conference, 2017
 
 ###### [5] Y. Cheng, C. Li, S. Li, Z. Li, "Motion Planning of Redundant Manipulator With Variable Joint Velocity Limit Based on Beetle Antennae Search Algorithm, " in _IEEE Access_, vol. 8, pp. 138788-138799, 2020
-
-[[3]](#3-httpsmachinelearningmasterycoma-gentle-introduction-to-particle-swarm-optimization)
-[[4]](#4-x-jiang-s-li-bas-beetle-antennae-search-algorithm-for-optimization-problems--in-arxiv-conference-2017)
-[[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-of-redundant-manipulator-with-variable-joint-velocity-limit-based-on-beetle-antennae-search-algorithm--in-ieee-access-vol-8-pp-138788-138799-2020)
