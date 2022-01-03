@@ -64,8 +64,8 @@ This idea was inspired by th nature of the beetles. The beetle explores nearby a
 
 where
 
-- $d^t$ is the sensing length of antennae corresponding to the exploit ability
-- $\bf{b}$ is a random unit vector
+- <img src="https://render.githubusercontent.com/render/math?math={d^t}"> is the sensing length of antennae corresponding to the exploit ability
+- <img src="https://render.githubusercontent.com/render/math?math=\bf{b}"> is a random unit vector
 
 ## Experiment
 
