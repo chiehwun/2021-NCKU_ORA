@@ -25,8 +25,7 @@ Motion planning is commonly used in robotics and manufacturing. For example, ind
 #### Forward Kinematics
 
 Forward kinematics performs the transformation from **joint space** to **cartesian space**.
-Watch this video for more information.
-https://youtu.be/rA9tm0gTln8
+:bulb: Watch [this video](https://youtu.be/rA9tm0gTln8) for more information.
 
 ### What is Metaheuristic Algorithm?
 
@@ -36,7 +35,7 @@ In order to formulate the problem, there exists a function <img src="http://late
 
 #### Particle Swarm Optimization (PSO)
 
-Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [2]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [4]
+Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [2]. As mentioned in the original paper, sociobiologists believe a school of fish or a flock of birds that moves in a group “can profit from the experience of all other members”. In other words, while a bird flying and searching randomly for food, for instance, all birds in the flock can share their discovery and help the entire flock get the best hunt. [3]
 
 **Math Expression for PSO**
 
@@ -59,7 +58,7 @@ where
 
 #### Beetle Antennae Search (BAS)
 
-This idea was inspired by th nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side.
+This idea was inspired by th nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side.[4]
 
 **Math Expression for BAS**
 
@@ -88,12 +87,12 @@ where
 
 ## Reference
 
-[5] J. Kennedy and R. Eberhart, "Particle swarm optimization, " Proceedings of ICNN'95 - _International Conference on Neural_ Networks, 1995, pp. 1942-1948 vol.4
+###### [1] https://en.wikipedia.org/wiki/Metaheuristic
 
-[4] X. Jiang, S. Li, "BAS: Beetle Antennae Search Algorithm for Optimization Problems, " in arXiv conference, 2017
+###### [2] J. Kennedy and R. Eberhart, "Particle swarm optimization, " Proceedings of ICNN'95 - _International Conference on Neural_ Networks, 1995, pp. 1942-1948 vol.4
 
-[3] Y. Cheng, C. Li, S. Li, Z. Li, "Motion Planning of Redundant Manipulator With Variable Joint Velocity Limit Based on Beetle Antennae Search Algorithm, " in _IEEE Access_, vol. 8, pp. 138788-138799, 2020
+###### [3] https://machinelearningmastery.com/a-gentle-introduction-to-particle-swarm-optimization/
 
-[2] https://machinelearningmastery.com/a-gentle-introduction-to-particle-swarm-optimization/
+###### [4] X. Jiang, S. Li, "BAS: Beetle Antennae Search Algorithm for Optimization Problems, " in arXiv conference, 2017
 
-[1] https://en.wikipedia.org/wiki/Metaheuristic
+###### [5] Y. Cheng, C. Li, S. Li, Z. Li, "Motion Planning of Redundant Manipulator With Variable Joint Velocity Limit Based on Beetle Antennae Search Algorithm, " in _IEEE Access_, vol. 8, pp. 138788-138799, 2020
