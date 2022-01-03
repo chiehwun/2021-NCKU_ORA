@@ -20,13 +20,13 @@ In this project, we compared two metaheuristic algorithms for path planning and 
 ### What is Motion Planning?
 
 ![](https://control.com/uploads/articles/image18.jpg)
-Motion planning is commonly used in robotics and manufacturing. For example, industrial robots and CNC machine tools have multiple positionong axes that must move in a coordinated fashion along precisely defined paths to accomplish their program tasks.
+Motion planning is commonly used in robotics and manufacturing. For example, industrial robots and CNC machine tools have multiple positioning axes that must move in a coordinated fashion along precisely defined paths to accomplish their program tasks.
 
 #### Forward Kinematics
 
 Forward kinematics performs the transformation from **joint space** to **cartesian space**.
 
-:bulb: Watch [this video](https://youtu.be/rA9tm0gTln8) for more information.
+:bulb: Watch [this video](https://youtu.be/rA9tm0gTln8) for more information
 
 ### What is Metaheuristic Algorithm?
 
@@ -83,6 +83,16 @@ where
 ## Experiment
 
 We reproduce parts of the paper [[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-of-redundant-manipulator-with-variable-joint-velocity-limit-based-on-beetle-antennae-search-algorithm--in-ieee-access-vol-8-pp-138788-138799-2020).
+
+### Our Model
+
+<br>
+<div align=center>
+<img src="https://imgur.com/a/xq051Jw" width="400" height="285">
+</div>
+<br>
+
+<!-- <img src=https://imgur.com/a/xq051Jw> -->
 
 ## Result
 
