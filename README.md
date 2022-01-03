@@ -88,11 +88,9 @@ We reproduce parts of the paper [[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-
 
 <br>
 <div align=center>
-<img src="https://imgur.com/a/xq051Jw" width="400" height="285">
+<img src="https://github.com/chiehwun/2021-NCKU_ORA/Final_Project/MyRobot_Model.png" width="400" height="285">
 </div>
-<br>
-
-<!-- <img src=https://imgur.com/a/xq051Jw> -->
+<br
 
 ## Result
 
