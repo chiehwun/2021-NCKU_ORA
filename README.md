@@ -1,7 +1,5 @@
 # Path Planning For Manipulator Based On Metaheuristic Algorithm
 
-:target:
-
 ## Outline
 
 - [Introduction](#introduction)
@@ -27,6 +25,7 @@ Motion planning is commonly used in robotics and manufacturing. For example, ind
 #### Forward Kinematics
 
 Forward kinematics performs the transformation from **joint space** to **cartesian space**.
+
 :bulb: Watch [this video](https://youtu.be/rA9tm0gTln8) for more information.
 
 ### What is Metaheuristic Algorithm?
@@ -83,7 +82,7 @@ where
 
 ## Experiment
 
-We reproduce some part of [[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-of-redundant-manipulator-with-variable-joint-velocity-limit-based-on-beetle-antennae-search-algorithm--in-ieee-access-vol-8-pp-138788-138799-2020).
+We reproduce parts of the paper [[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-of-redundant-manipulator-with-variable-joint-velocity-limit-based-on-beetle-antennae-search-algorithm--in-ieee-access-vol-8-pp-138788-138799-2020).
 
 ## Result
 
