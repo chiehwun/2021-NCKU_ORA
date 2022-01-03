@@ -1,7 +1,5 @@
 # Path Planning For Manipulator Based On Metaheuristic Algorithm
 
-[ToC]
-
 ## Introduction
 
 In this project, we compared two metaheuristic algorithm for path planning and made a brief conclusion and comments for this project.
@@ -26,7 +24,7 @@ Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [1]. As
 
 - Math Expression
 
-  <img src="http://latex.codecogs.com/gif.latex?{{{\bf{v}}_{\bf{i}}} = w{{\bf{v}}_{\bf{i}}} + {c_1}{r_1}\left( {{\bf{pbes}}{{\bf{t}}_{\bf{i}}} - {{\bf{x}}_{\bf{i}}}} \right) + {c_2}{r_2}\left( {{\bf{gbest}} - {{\bf{x}}_{\bf{i}}}} \right)}" />
+  <img src="https://render.githubusercontent.com/render/math?math=w{{\bf{v}}_{\bf{i}}} + {c_1}{r_1}\left( {{\bf{pbes}}{{\bf{t}}_{\bf{i}}} - {{\bf{x}}_{\bf{i}}}} \right) + {c_2}{r_2}\left( {{\bf{gbest}} - {{\bf{x}}_{\bf{i}}}} \right)}" />
 
   <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_{\bf{i}}} = {{\bf{x}}_{\bf{i}}} + {{\bf{v}}_{\bf{i}}}" />
 
