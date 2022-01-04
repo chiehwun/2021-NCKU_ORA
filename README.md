@@ -1,4 +1,4 @@
-# Path Planning For Manipulator Based On Metaheuristic Algorithm
+# Motion Planning For Manipulator Based On Metaheuristic Algorithm
 
 ## Outline
 
@@ -14,7 +14,7 @@
 
 ## Introduction
 
-In this project, we compared two metaheuristic algorithms for path planning and made a brief comment for our experiment.
+In this project, we compared two metaheuristic algorithms with motion planning and made a brief comment for our experiment.
 
 ### What is Motion Planning?
 
@@ -92,6 +92,22 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 <br>
 
 - 6 axes
+- D-H Table
+  |<img src="http://latex.codecogs.com/gif.latex?i">|<img src="http://latex.codecogs.com/gif.latex?{\theta}\quad(rad)">|<img src="http://latex.codecogs.com/gif.latex?d\quad(cm)">|<img src="http://latex.codecogs.com/gif.latex?a\quad(cm)">|<img src="http://latex.codecogs.com/gif.latex?\alpha\quad(rad)">|
+  |---|---|---|---|---|
+  |1|0| 34.5| 7.5| 1.570796|
+  |2|1.570796 |0 |27 |0|
+  |3|0 |0 |9 |1.570796|
+  |4|0 |29.5 |0 |-1.570796|
+  |5|0 |0 |0 |1.570796|
+  |6|0 |10.2 |0 |0|
+- Joint space limit
+  - <img src="http://latex.codecogs.com/gif.latex?-170^\circ  \le {\theta _1} \le 170^\circ">
+  - <img src="http://latex.codecogs.com/gif.latex?- 135^\circ  \le {\theta _2} \le 82.79^\circ">
+  - <img src="http://latex.codecogs.com/gif.latex?- 74.88^\circ  \le {\theta _3} \le 104^\circ">
+  - <img src="http://latex.codecogs.com/gif.latex?- 190^\circ  \le {\theta _4} \le 190^\circ">
+  - <img src="http://latex.codecogs.com/gif.latex?- 118.88^\circ  \le {\theta _5} \le 118.88^\circ">
+  - <img src="http://latex.codecogs.com/gif.latex?- 360^\circ  \le {\theta _6} \le 360">
 
 ## Result
 
