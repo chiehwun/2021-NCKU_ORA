@@ -91,7 +91,7 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 </div>
 <br>
 
-- 6 axes
+- 6 axes robot manipulator
 - D-H Table
   |<img src="http://latex.codecogs.com/gif.latex?i">|<img src="http://latex.codecogs.com/gif.latex?{\theta}\quad(rad)">|<img src="http://latex.codecogs.com/gif.latex?d\quad(cm)">|<img src="http://latex.codecogs.com/gif.latex?a\quad(cm)">|<img src="http://latex.codecogs.com/gif.latex?\alpha\quad(rad)">|
   |---|---|---|---|---|
@@ -108,6 +108,8 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
   - <img src="http://latex.codecogs.com/gif.latex?- 190^\circ  \le {\theta _4} \le 190^\circ">
   - <img src="http://latex.codecogs.com/gif.latex?- 118.88^\circ  \le {\theta _5} \le 118.88^\circ">
   - <img src="http://latex.codecogs.com/gif.latex?- 360^\circ  \le {\theta _6} \le 360">
+- Testing Motion
+  - [See txt file](https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/C_Minimum_Jerk.txt)
 
 ## Result
 
