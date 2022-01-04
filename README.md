@@ -10,7 +10,6 @@
     - [Beetle Antennae Search (BAS)](#beetle-antennae-search-bas)
 - [Experiment](#experiment)
 - [Result](#result)
-- [Conclusion](#conclusion)
 - [Reference](#reference)
 
 ## Introduction
@@ -59,7 +58,7 @@ where
 
 #### Beetle Antennae Search (BAS)
 
-This idea was inspired by th nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side. [[4]](#4-x-jiang-s-li-bas-beetle-antennae-search-algorithm-for-optimization-problems--in-arxiv-conference-2017)
+This idea was inspired by the nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side. [[4]](#4-x-jiang-s-li-bas-beetle-antennae-search-algorithm-for-optimization-problems--in-arxiv-conference-2017)
 
 **Math Expression for BAS**
 
