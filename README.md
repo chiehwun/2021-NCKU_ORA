@@ -23,7 +23,8 @@ Motion planning is commonly used in robotics and manufacturing. For example, ind
 
 #### Forward Kinematics
 
-Forward kinematics performs the transformation from **joint space** to **cartesian space**.
+Forward kinematics performs the transformation from **joint space** <img src="http://latex.codecogs.com/gif.latex?{\bf{\theta}}" /> to **cartesian space** <img src="http://latex.codecogs.com/gif.latex?{\bf{p}}"/>.
+i.e.,<img src="http://latex.codecogs.com/gif.latex?F\left( {\bf{\theta }} \right) = {\bf{p}}" />
 
 :bulb: Watch [this video](https://youtu.be/rA9tm0gTln8) for more information
 
@@ -32,6 +33,9 @@ Forward kinematics performs the transformation from **joint space** to **cartesi
 In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information or limited computation capacity. [[1]](#1-httpsenwikipediaorgwikimetaheuristic)
 
 In order to formulate the problem, there exists a function <img src="http://latex.codecogs.com/gif.latex?f(\bf{x})" /> called **Fitness Function** which is a type of objective function to guide the simulations towards optimal design solution.
+In our case, the fitness function was defined as following.
+<img src="http://latex.codecogs.com/gif.latex?f\left( {{{\bf{p}}_{\bf{d}}}(t),{\bf{\theta }}(t)} \right) = {\left\| {{{\bf{p}}_{\bf{d}}}(t) - F\left( {{\bf{\theta }}(t)} \right)} \right\|^2}" />
+It means the distance between **real** position and **desired** one.
 
 #### Particle Swarm Optimization (PSO)
 
@@ -109,12 +113,22 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
   - <img src="http://latex.codecogs.com/gif.latex?- 118.88^\circ  \le {\theta _5} \le 118.88^\circ">
   - <img src="http://latex.codecogs.com/gif.latex?- 360^\circ  \le {\theta _6} \le 360">
 - Testing Motion (cartesian position of the end effector)
+
   - [See txt file](https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/C_Minimum_Jerk.txt)
+
+- Parameters
+
+  - PSO
+    - <img src="http://latex.codecogs.com/gif.latex?{w} = " />
+    - <img src="http://latex.codecogs.com/gif.latex?{c_1} = " />
+    - <img src="http://latex.codecogs.com/gif.latex?{c_2} = " />
+  - BAS
+    - <img src="http://latex.codecogs.com/gif.latex?{c_1} = " />
+    - <img src="http://latex.codecogs.com/gif.latex?{c_2} = " />
 
 ## Result
 
 - PSO
-
 - BAS
 
 ## Reference
