@@ -36,9 +36,9 @@ In computer science and mathematical optimization, a metaheuristic is a higher-l
 In order to formulate the problem, there exists a function <img src="http://latex.codecogs.com/gif.latex?f(\bf{x})" /> called **Fitness Function** which is a type of objective function to guide the simulations towards optimal design solution.
 In our case, the fitness function was defined as following.
 
-### <img src="http://latex.codecogs.com/gif.latex?f\left( {{{\bf{p}}_{\bf{d}}}(t),{\bf{\theta }}(t)} \right) = {\left\| {{{\bf{p}}_{\bf{d}}}(t) - F\left( {{\bf{\theta }}(t)} \right)} \right\|^2}" />
+### <img src="http://latex.codecogs.com/gif.latex?f\left( {{\bf{\theta }}(t)} \right) = {\left\| {{{\bf{p}}_{\bf{d}}}(t) - F\left( {{\bf{\theta }}(t)} \right)} \right\|^2}" />
 
-It means the distance between **real** position and **desired** one.
+It means the distance between **desired** position and **real** one.
 
 #### Particle Swarm Optimization (PSO)
 
@@ -46,8 +46,9 @@ Particle Swarm Optimization was proposed by Kennedy and Eberhart in 1995 [[2]](#
 
 **Math Expression for PSO**
 
-- <img src="http://latex.codecogs.com/gif.latex?{{{\bf{v}}_{\bf{i}}} = w{{\bf{v}}_{\bf{i}}} + {c_1}{r_1}\left( {{\bf{pbes}}{{\bf{t}}_{\bf{i}}} - {{\bf{x}}_{\bf{i}}}} \right) + {c_2}{r_2}\left( {{\bf{gbest}} - {{\bf{x}}_{\bf{i}}}} \right)}" />
-- <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_{\bf{i}}} = {{\bf{x}}_{\bf{i}}} + {{\bf{v}}_{\bf{i}}}" />
+### <img src="http://latex.codecogs.com/gif.latex?{{{\bf{v}}_{\bf{i}}} = w{{\bf{v}}_{\bf{i}}} + {c_1}{r_1}\left( {{\bf{pbes}}{{\bf{t}}_{\bf{i}}} - {{\bf{x}}_{\bf{i}}}} \right) + {c_2}{r_2}\left( {{\bf{gbest}} - {{\bf{x}}_{\bf{i}}}} \right)}" />
+
+### <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_{\bf{i}}} = {{\bf{x}}_{\bf{i}}} + {{\bf{v}}_{\bf{i}}}" />
 
   <!-- $$
   \left\{ \begin{array}{l}
@@ -69,9 +70,15 @@ This idea was inspired by the nature of the beetles. The beetle explores nearby 
 
 **Math Expression for BAS**
 
-- <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_r} = {{\bf{x}}^t} + {d^t}{\bf{b}}">
-- <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_l} = {{\bf{x}}^t} - {d^t}{\bf{b}}">
-- <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}^t} = {{\bf{x}}^{t - 1}} - {\delta ^t}{\bf{b}}sign\left( {f\left( {{{\bf{x}}_r}} \right) - f\left( {{{\bf{x}}_l}} \right)} \right)">
+### <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_r} = {{\bf{x}}^t} + {d^t}{\bf{b}}">
+
+### <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}_l} = {{\bf{x}}^t} - {d^t}{\bf{b}}">
+
+### <img src="http://latex.codecogs.com/gif.latex?{{\bf{x}}^t} = {{\bf{x}}^{t - 1}} - {\delta ^t}{\bf{b}}sign\left( {f\left( {{{\bf{x}}_r}} \right) - f\left( {{{\bf{x}}_l}} \right)} \right)">
+
+### <img src="http://latex.codecogs.com/gif.latex?{d^t} = {c_1}\sqrt {f\left( {{{\bf{x}}^t}} \right)}">
+
+### <img src="http://latex.codecogs.com/gif.latex?{\delta ^t} = {c_2}{d^t}">
 
   <!-- $$
     \left\{ \begin{array}{l}
@@ -83,6 +90,8 @@ This idea was inspired by the nature of the beetles. The beetle explores nearby 
 
 where
 
+- <img src="https://render.githubusercontent.com/render/math?math=c_1"> and <img src="https://render.githubusercontent.com/render/math?math=c_2"> are parameters to the BAS algorithm
+- <img src="https://render.githubusercontent.com/render/math?math={\delta^t}"> is the step size of searching which accounts for the convergence speed following a decreasing function of t instead of an increasing function or a constant.
 - <img src="https://render.githubusercontent.com/render/math?math={d^t}"> is the sensing length of antennae corresponding to the exploit ability
 - <img src="https://render.githubusercontent.com/render/math?math=\bf{b}"> is a random unit vector
 
