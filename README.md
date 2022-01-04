@@ -33,8 +33,9 @@ Forward kinematics performs the transformation from **joint space** <img src="ht
 
 In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information or limited computation capacity. [[1]](#1-httpsenwikipediaorgwikimetaheuristic)
 
-In order to formulate the problem, there exists a function <img src="http://latex.codecogs.com/gif.latex?f(\bf{x})" /> called **Fitness Function** which is a type of objective function to guide the simulations towards optimal design solution.
-In our case, the fitness function was defined as following.
+In order to formulate the problem, there exists a function <img src="http://latex.codecogs.com/gif.latex?f(\bf{x})" /> called **fitness function** which is a type of objective function to guide the simulations towards optimal design solution.
+
+##### In our case, the fitness function was defined as following.
 
 ### <img src="http://latex.codecogs.com/gif.latex?f\left( {{\bf{\theta }}(t)} \right) = {\left\| {{{\bf{p}}_{\bf{d}}}(t) - F\left( {{\bf{\theta }}(t)} \right)} \right\|^2}" />
 
