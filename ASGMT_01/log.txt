@@ -1,0 +1,46 @@
+Platform   : Windows-10-10.0.19041-SP0
+Python ver.: 3.7.11
+PuLP ver.  : 2.5.1
+	 Testing invalid status
+	 Testing continuous LP solution - export dict
+	 Testing export dict for LP
+	 Testing export dict MIP
+	 Testing maximize continuous LP solution
+	 Testing continuous LP solution - export JSON
+	 Testing continuous LP solution - export solver dict
+	 Testing continuous LP solution - export solver JSON
+	 Testing reading MPS files - binary variable, no constraint names
+	 Testing reading MPS files - integer variable
+	 Testing reading MPS files - maximize
+	 Testing invalid var names
+	 Testing makeDict general behavior
+	 Testing makeDict default value behavior
+	 Testing measuring optimization time
+	 Testing the availability of the function pulpTestAll
+	 Testing zero subtraction
+	 Testing inconsistent lp solution
+	 Testing continuous LP solution
+	 Testing maximize continuous LP solution
+	 Testing unbounded continuous LP solution
+	 Testing Long Names
+	 Testing repeated Names
+	 Testing zero constraint
+	 Testing zero objective
+	 Testing LpVariable (not LpAffineExpression) objective
+	 Testing LpAffineExpression divide
+	 Testing MIP solution
+	 Testing MIP solution with floats in objective
+	 Testing Initial value in MIP solution
+	 Testing fixing value in MIP solution
+	 Testing MIP relaxation
+	 Testing feasibility problem (no objective)
+	 Testing an infeasible problem
+	 Testing an integer infeasible problem
+	 Testing another integer infeasible problem
+	 Testing column based modelling
+	 Testing fractional constraints
+	 Testing elastic constraints (no change)
+	 Testing elastic constraints (freebound)
+	 Testing elastic constraints (penalty unchanged)
+	 Testing elastic constraints (penalty unbounded)
+	 Testing timeLimit argument
