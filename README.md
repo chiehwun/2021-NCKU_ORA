@@ -82,7 +82,7 @@ where
 
 ## Experiment
 
-We reproduce parts of the paper [[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-of-redundant-manipulator-with-variable-joint-velocity-limit-based-on-beetle-antennae-search-algorithm--in-ieee-access-vol-8-pp-138788-138799-2020).
+We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-of-redundant-manipulator-with-variable-joint-velocity-limit-based-on-beetle-antennae-search-algorithm--in-ieee-access-vol-8-pp-138788-138799-2020).
 
 ### Our Model
 
@@ -90,15 +90,21 @@ We reproduce parts of the paper [[5]](#5-y-cheng-c-li-s-li-z-li-motion-planning-
 <div align=center>
 <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/MyRobot_Model.png" width="400" height="285">
 </div>
-<br
+<br>
+
+- 6 axes
 
 ## Result
+
+- PSO
+
+- BAS
 
 ## Reference
 
 ###### [1] https://en.wikipedia.org/wiki/Metaheuristic
 
-###### [2] J. Kennedy and R. Eberhart, "Particle swarm optimization, " Proceedings of ICNN'95 - _International Conference on Neural_ Networks, 1995, pp. 1942-1948 vol.4
+###### [2] J. Kennedy and R. Eberhart, "Particle swarm optimization, " Proceedings of ICNN'95 - _International Conference on Neural Networks_, 1995, pp. 1942-1948 vol.4
 
 ###### [3] https://machinelearningmastery.com/a-gentle-introduction-to-particle-swarm-optimization/
 
