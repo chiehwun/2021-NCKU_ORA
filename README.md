@@ -127,7 +127,7 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
   - <img src="http://latex.codecogs.com/gif.latex?- 360^\circ  \le {\theta _6} \le 360">
 - Testing Motion (cartesian position of the end effector)
 
-  - [See txt file](https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/position.txt)
+  - [See txt file](https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/Code/position.txt)
 
 - Parameters
 
