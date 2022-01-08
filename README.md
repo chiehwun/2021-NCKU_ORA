@@ -132,17 +132,31 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 - Parameters
 
   - PSO
-    - <img src="http://latex.codecogs.com/gif.latex?{w} = " />
-    - <img src="http://latex.codecogs.com/gif.latex?{c_1} = " />
-    - <img src="http://latex.codecogs.com/gif.latex?{c_2} = " />
+    - <img src="http://latex.codecogs.com/gif.latex?{w} = 2.0" />
+    - <img src="http://latex.codecogs.com/gif.latex?{c_1} = 0.5339" />
+    - <img src="http://latex.codecogs.com/gif.latex?{c_2} = 1.0548" />
   - BAS
-    - <img src="http://latex.codecogs.com/gif.latex?{c_1} = " />
-    - <img src="http://latex.codecogs.com/gif.latex?{c_2} = " />
+    - <img src="http://latex.codecogs.com/gif.latex?{c_1} = 0.25" />
+    - <img src="http://latex.codecogs.com/gif.latex?{c_2} = 0.2" />
 
 ## Result
 
 - PSO
+  - Particle Number = 10
+
+<br>
+<div align=center>
+<img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png">
+</div>
+<br>
+
 - BAS
+  - Beetles Number = 10
+  <br>
+  <div align=center>
+  <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png">
+  </div>
+  <br>
 
 ## Reference
 
