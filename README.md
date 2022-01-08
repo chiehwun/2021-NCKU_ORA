@@ -143,6 +143,7 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 
 - PSO
   - Particle Number = 10
+  - Time = 80 sec
 
 <br>
 <div align=center>
@@ -151,12 +152,19 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 <br>
 
 - BAS
+
   - Beetles Number = 10
+  - Time = 104
   <br>
   <div align=center>
   <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png">
   </div>
   <br>
+
+  > **Comment**
+  >
+  > 1. PSO is faster than BAS
+  > 2. The error of PSO is smaller than BAS
 
 ## Reference
 
