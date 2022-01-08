@@ -146,7 +146,7 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 
 <br>
 <div align=center>
-<img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png">
+<img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png">
 </div>
 <br>
 
@@ -154,7 +154,7 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
   - Beetles Number = 10
   <br>
   <div align=center>
-  <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png">
+  <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png">
   </div>
   <br>
 
