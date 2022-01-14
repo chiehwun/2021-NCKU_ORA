@@ -59,3 +59,10 @@ xlabel('time step')
 ylabel('error(x,y,z)') 
 legend({'Ex','Ey','Ez'},'Location','southwest')
 grid on
+%%
+dx = position(:,1)-bas_trajectory(:,1);
+dy = position(:,2)-bas_trajectory(:,2);
+dz = position(:,3)-bas_trajectory(:,3);
+RMSE_x = sqrt(sum(dx.^2))
+RMSE_y = sqrt(sum(dy.^2))
+RMSE_z = sqrt(sum(dz.^2))
