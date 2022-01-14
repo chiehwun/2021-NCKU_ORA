@@ -65,6 +65,8 @@ where
 - <img src="https://render.githubusercontent.com/render/math?math=w"> is inertia weight which determines how much should the particle keep on with its previous velocity.
 - <img src="https://render.githubusercontent.com/render/math?math={\bf{pbes}}{{\bf{t}}_{\bf{i}}}"> and <img src="https://render.githubusercontent.com/render/math?math={\bf{gbest}}"> are the positions that gives the best cost function value ever explored by particle i and the whole partlcles respectively.
 
+> We modified the initial condition to improve the performance. The current searching range is based on the last result position.
+
 #### Beetle Antennae Search (BAS)
 
 This idea was inspired by the nature of the beetles. The beetle explores nearby area randomly using both antennae. Further more, when the antennae in one side detects a higher concentration of odour, the beetle would turn to the direction towards the same side, otherwise, it would turn to the other side. [[4]](#4-x-jiang-s-li-bas-beetle-antennae-search-algorithm-for-optimization-problems--in-arxiv-conference-2017)
@@ -141,7 +143,7 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 
 ## Result
 
-### Experient 1: Time/Precision Comparison
+### Time/Precision Comparison
 
 |                        | PSO                                                                                             | BAS                                                                                                 |
 | ---------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -149,8 +151,8 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 | Particle/Beetle Number | 10                                                                                              | 10                                                                                                  |
 | Time (sec)             | 80                                                                                              | 104                                                                                                 |
 | RMSE (x,y,z)           | (1.1427, 1.1854, 1.1952)                                                                        | (1.6861, 1.9373, 1.9226)                                                                            |
-
->
+| Faster?                | :white_check_mark:                                                                              |                                                                                                     |
+| Precision?             | :white_check_mark:                                                                              |                                                                                                     |
 
 ## Reference
 
