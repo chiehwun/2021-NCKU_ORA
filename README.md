@@ -143,34 +143,13 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 
 ### Experient 1: Time Comparison
 
-|     | PSO                                                                                             | BAS                                                                                                 |
-| --- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-|     | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png"> | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png"> |
+|                        | PSO                                                                                             | BAS                                                                                                 |
+| ---------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+|                        | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png"> | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png"> |
+| Particle/Beetle Number | 10                                                                                              | 10                                                                                                  |
+| Time                   | 80 sec                                                                                          | 104 sec                                                                                             |
 
-- PSO
-  - Particle Number = 10
-  - Time = 80 sec
-
-<!-- <br>
-<div align=center>
-
-</div>
-<br> -->
-
-- BAS
-
-  - Beetles Number = 10
-  - Time = 104
-  <!-- <br>
-  <div align=center>
-
-  </div>
-  <br> -->
-
-  > **Comment**
-  >
-  > 1. PSO is faster than BAS
-  > 2. The error of PSO is smaller than BAS
+### Experient 2: Precision Comparison
 
 ## Reference
 
