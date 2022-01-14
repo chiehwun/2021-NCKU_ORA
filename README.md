@@ -146,14 +146,14 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 
 ### Time/Precision Comparison
 
-|                        | PSO                                                                                             | BAS                                                                                                 |
-| ---------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-|                        | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png"> | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png"> |
-| Particle/Beetle Number | 10                                                                                              | 10                                                                                                  |
-| Time (sec)             | 80                                                                                              | 104                                                                                                 |
-| RMSE (x,y,z)           | (1.1427, 1.1854, 1.1952)                                                                        | (1.6861, 1.9373, 1.9226)                                                                            |
-| Faster?                | :white_check_mark:                                                                              |                                                                                                     |
-| Precision?             | :white_check_mark:                                                                              |                                                                                                     |
+|                             | PSO                                                                                             | BAS                                                                                                 |
+| --------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+|                             | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png"> | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png"> |
+| Number of Particles/Beetles | 10                                                                                              | 10                                                                                                  |
+| Time (sec)                  | 80                                                                                              | 104                                                                                                 |
+| RMSE (x,y,z)                | (1.1427, 1.1854, 1.1952)                                                                        | (1.6861, 1.9373, 1.9226)                                                                            |
+| Faster?                     | :white_check_mark:                                                                              |                                                                                                     |
+| Precision?                  | :white_check_mark:                                                                              |                                                                                                     |
 
 ## Reference
 
