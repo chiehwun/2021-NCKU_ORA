@@ -141,15 +141,16 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 
 ## Result
 
-### Experient 1: Time Comparison
+### Experient 1: Time/Precision Comparison
 
 |                        | PSO                                                                                             | BAS                                                                                                 |
 | ---------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 |                        | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png"> | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png"> |
 | Particle/Beetle Number | 10                                                                                              | 10                                                                                                  |
-| Time                   | 80 sec                                                                                          | 104 sec                                                                                             |
+| Time (sec)             | 80                                                                                              | 104                                                                                                 |
+| RMSE (x,y,z)           | (1.1427, 1.1854, 1.1952)                                                                        | (1.6861, 1.9373, 1.9226)                                                                            |
 
-### Experient 2: Precision Comparison
+>
 
 ## Reference
 
