@@ -141,25 +141,31 @@ We reproduce parts of the expiriments in paper [[5]](#5-y-cheng-c-li-s-li-z-li-m
 
 ## Result
 
+### Experient 1: Time Comparison
+
+|     | PSO                                                                                             | BAS                                                                                                 |
+| --- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+|     | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png"> | <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png"> |
+
 - PSO
   - Particle Number = 10
   - Time = 80 sec
 
-<br>
+<!-- <br>
 <div align=center>
-<img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/pso/pso_error.png">
+
 </div>
-<br>
+<br> -->
 
 - BAS
 
   - Beetles Number = 10
   - Time = 104
-  <br>
+  <!-- <br>
   <div align=center>
-  <img src="https://github.com/chiehwun/2021-NCKU_ORA/blob/main/Final_Project/bas/bas(10)_error.png">
+
   </div>
-  <br>
+  <br> -->
 
   > **Comment**
   >
