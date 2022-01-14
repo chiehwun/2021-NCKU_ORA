@@ -65,7 +65,8 @@ where
 - <img src="https://render.githubusercontent.com/render/math?math=w"> is inertia weight which determines how much should the particle keep on with its previous velocity.
 - <img src="https://render.githubusercontent.com/render/math?math={\bf{pbes}}{{\bf{t}}_{\bf{i}}}"> and <img src="https://render.githubusercontent.com/render/math?math={\bf{gbest}}"> are the positions that gives the best cost function value ever explored by particle i and the whole partlcles respectively.
 
-> We modified the initial condition to improve the performance. The current searching range is based on the last result position.
+> We modified the initial condition to improve the performance.
+> The current searching space is based on the neighboring region of the last position.
 
 #### Beetle Antennae Search (BAS)
 
